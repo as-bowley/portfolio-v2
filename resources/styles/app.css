@@ -1,3 +1,34 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import 'common/fonts';
+
+:root {
+  @apply bg-[#222222];
+}
+
+body {
+  font-family: 'Inter', 'Arial', sans-serif;
+  @apply antialiased;
+}
+
+.hero-title {
+  background: linear-gradient(
+      93.42deg,
+      rgba(0, 0, 0, 0.2) 0.82%,
+      rgba(255, 255, 255, 0.2) 99.28%
+    ),
+    #00c957;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  color: #769181;
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
