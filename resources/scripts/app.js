@@ -1,10 +1,11 @@
 import domReady from '@roots/sage/client/dom-ready';
+import initBarba from '@scripts/barba';
 
 /**
  * Application entrypoint
  */
 domReady(async () => {
-  // ...
+  initBarba();
 });
 
 /**
